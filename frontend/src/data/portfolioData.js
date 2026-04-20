@@ -17,27 +17,48 @@ export const personalInfo = {
 export const skills = [
   {
     category: "Languages",
-    items: ["Python", "Django"]
+    items: [
+      { name: "Python", icon: "SiPython" },
+      { name: "Django", icon: "SiDjango" }
+    ]
   },
   {
     category: "Frontend",
-    items: ["HTML", "CSS"]
+    items: [
+      { name: "HTML", icon: "SiHtml5" },
+      { name: "CSS", icon: "SiCss3" },
+      { name: "React", icon: "SiReact" }
+    ]
   },
   {
     category: "Backend",
-    items: ["Python", "Django"]
+    items: [
+      { name: "Python", icon: "SiPython" },
+      { name: "Django", icon: "SiDjango" }
+    ]
   },
   {
     category: "Database",
-    items: ["MySQL", "PostgreSQL"]
+    items: [
+      { name: "MySQL", icon: "SiMysql" },
+      { name: "PostgreSQL", icon: "SiPostgresql" }
+    ]
   },
   {
     category: "Tools",
-    items: ["Git", "GitHub", "VS Code", "Postman"]
+    items: [
+      { name: "Git", icon: "SiGit" },
+      { name: "GitHub", icon: "SiGithub" },
+      { name: "VS Code", icon: "SiVisualstudiocode" },
+      { name: "Postman", icon: "SiPostman" },
+      { name: "Canva", icon: "SiCanva" }
+    ]
   },
   {
     category: "Core Concepts",
-    items: ["Object-Oriented Programming"]
+    items: [
+      { name: "Object-Oriented Programming", icon: "FaCode" }
+    ]
   }
 ];
 
