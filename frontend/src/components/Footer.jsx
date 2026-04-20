@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, Instagram } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 
 const Footer = () => {
@@ -33,6 +33,15 @@ const Footer = () => {
               aria-label="LinkedIn"
             >
               <Linkedin size={20} />
+            </a>
+            <a
+              href={personalInfo.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-white transition-colors duration-300"
+              aria-label="Instagram"
+            >
+              <Instagram size={20} />
             </a>
             <a
               href={`mailto:${personalInfo.email}`}

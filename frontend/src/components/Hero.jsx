@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Github, Linkedin, Mail, Phone, MapPin, Download } from 'lucide-react';
+import { Github, Linkedin, Mail, Phone, MapPin, Download, Instagram } from 'lucide-react';
 import { Button } from './ui/button';
 import { personalInfo } from '../data/portfolioData';
 
@@ -130,6 +130,15 @@ const Hero = () => {
               aria-label="LinkedIn"
             >
               <Linkedin size={24} />
+            </a>
+            <a
+              href={personalInfo.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-gray-800 text-gray-300 hover:bg-gray-700 hover:text-white transition-all duration-300 hover:scale-110"
+              aria-label="Instagram"
+            >
+              <Instagram size={24} />
             </a>
             <a
               href={`mailto:${personalInfo.email}`}

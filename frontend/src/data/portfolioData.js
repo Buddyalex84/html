@@ -8,6 +8,7 @@ export const personalInfo = {
   phone: "+918435463577",
   github: "https://github.com/Buddyalex84",
   linkedin: "https://www.linkedin.com/in/ansh-verma1",
+  instagram: "https://www.instagram.com/_ansh_verma833?igsh=NDlzc2tqNHh0aG1p&utm_source=qr",
   profileImage: null, // Set to image URL when available
   about: "Motivated and detail-oriented B.Tech Computer Science student seeking an entry-level opportunity to apply my knowledge of programming, data structures, and problem-solving. I aim to contribute to innovative projects while continuously learning and adapting to new technologies. Eager to grow in a dynamic professional environment and deliver value through dedication, teamwork, and technical skills.",
   resumeUrl: "#" // Add resume PDF URL here
