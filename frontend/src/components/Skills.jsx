@@ -10,11 +10,10 @@ import {
   SiPostgresql,
   SiGit,
   SiGithub,
-  SiVisualstudio,
   SiPostman,
   SiCanva
 } from 'react-icons/si';
-import { FaCode } from 'react-icons/fa';
+import { FaCode, FaFileCode } from 'react-icons/fa';
 
 const iconMap = {
   SiPython,
@@ -26,7 +25,7 @@ const iconMap = {
   SiPostgresql,
   SiGit,
   SiGithub,
-  SiVisualstudiocode: SiVisualstudio,
+  SiVisualstudiocode: FaFileCode,
   SiPostman,
   SiCanva,
   FaCode
